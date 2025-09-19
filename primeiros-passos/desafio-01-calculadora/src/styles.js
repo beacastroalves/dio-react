@@ -8,11 +8,28 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  `
+
+  export const Content = styled.div`
+  background-color: #eabdf7;
+  width: 80%;
+  min-width: 220px;
+  max-width: 500px;
+  border: 2px solid #290733;
+  border-radius: 8px
 `
 
-export const Content = styled.div`
-  background-color: #fafafa;
-  width: 80%;
-  max-width: 500px;
-  min-height: 400px;
+export const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+`
+
+export const Column = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 `

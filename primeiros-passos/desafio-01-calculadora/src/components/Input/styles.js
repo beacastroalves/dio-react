@@ -9,6 +9,7 @@ export const InputContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  border-radius: 8px 8px 0 0;
 
   font-size: 24px;
 
@@ -21,5 +22,6 @@ export const InputContainer = styled.div`
     text-align: right;
     font-size: 24px;
     padding: 0 8px;
+    border-radius: 8px 8px 0 0;
   }
 `
